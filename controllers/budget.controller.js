@@ -11,7 +11,6 @@ exports.create = (req, res) => {
       });
       return;
     }
-    console.log("logg:", req.body);
     // Create a Budget
     const budget = {
       title: req.body.title,

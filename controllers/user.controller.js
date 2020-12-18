@@ -1,7 +1,7 @@
-exports.allAccess = (req, res) => {
+exports.publicContent = (req, res) => {
     res.status(200).send("Public Content.");
   };
 
-exports.userBoard = (req, res) => {
+exports.userContent = (req, res) => {
     res.status(200).send("User Content.");
 };
